@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to JavaScript Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+    <div class="timer">Time: <span id="timer">0</span></div>
+
+    <!-- <header id="menu">
+        <nav>
+            <div>
+                <div class="scores"><a href="./highscore.html">View Highscores</a></div>
+                 <a href="/assets/viewHighScore.html" id="viewscore">View HighScores</a> 
+            </div>
+        </nav>
+        <aside>
+            <div>Time:</div>
+            <span id="timer">70</span>
+        </aside>
+    </header> -->
+
+    <!-- <div id="main"> -->
+        <div class="wrapper">
+
+        <div id="start-menu">
+            <!-- <article> -->
+                <h2>Coding Quiz Challenge</h2>
+                <div>
+                    <p>
+                        Try to answer the following code-related questions within the time
+                        limit.
+                    </p>
+                    <p>
+                        Keep in mind that incorrect answers will penalize your scoretime
+                        by ten seconds!
+                    </p>
+                </div>
+                <div class="center">
+                    <button type="submit" id="startbtn">Start Quiz</button>
+                </div>
+            <!-- </article> -->
+        </div>
+
+        <div id="question-menu" class="hidden" class="grid">
+            <!-- <article> -->
+                <div id="quiz">
+                    <p id="question"></p>
+                    <div class="buttons">
+                        <button id="btn0"><span id="choice0"></span></button>
+                        <button id="btn1"><span id="choice1"></span></button>
+                        <button id="btn2"><span id="choice2"></span></button>
+                        <button id="btn3"><span id="choice3"></span></button>
+                    </div>
+
+                    <hr style="margin-top: 50px">
+                    <!-- <p id="result"></p> -->
+                    <footer>
+                        <p id="answer" class="answer"></p>
+                    </footer>
+                    <!-- <p id="progress">Question x of y</p> -->
+
+                </div>
+            <!-- </article> -->
+        </div>
+
+        <div id="scores-menu" class="hidden">
+            <!-- <article> -->
+                <h1>All done !!!</h1>
+                <!-- <p>Your final Score is:<div id="scores"></div></p> -->
+                <section class="score">
+                    <div> Your final Score is : </div>
+                    <div id="scores"></div>
+                </section>
+
+                <section>
+                    <!-- <h2 id='score'></h2> -->
+                    <!-- <div class="center"></div> -->
+                    <div class ="center">Enter Initials : <input type="text" id="initials"> </div>
+                    <div class="center">
+                        <button type="submit" id="submitbtn">Submit</button>
+                    </div>
+                    <!-- <h3 class="message"></h3> -->
+                </section>
+        </div>
+        <!-- </article> -->
+
+        <!-- <div id="viewHighscore-menu" class="hidden">
+                <h1>HighScores</h1>
+                <h3 id="message"></h3>
+                <div class="center">
+                    <button type="submit" id="gobackbtn">Go Back</button>
+                    <button type="submit" id="clearscoresbtn">Clear Highscores</button>
+                </div>
+        </div> -->
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
