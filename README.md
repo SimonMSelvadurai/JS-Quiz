@@ -50,12 +50,15 @@ Once the quiz done, scores will be displayed on the screen and user will be prom
 Initials is Mandatory field.
 
 ![Validation Page - Code Quiz](assets/images/JS-Quiz_SubmitScores_validation.JPG)
-
+### Show High Scores Screen
+![ShowHighScoreScreen](assets/images/ShowHighScoreScreen.JPG)
 ### Clear High Scores Screen 
 ![clearscores Page - Code Quiz](assets/images/JS-Quiz_ClearHighScores.JPG)
 
 ### goback to Home Page
 ![goback to Home Page - Code Quiz](assets/images/JS-Quiz_GoBackToWelcomePage.JPG)
+
+
 
 
 # Usage
@@ -66,8 +69,11 @@ The following websites was used as reference to build this website.
 
 https://stackoverflow.com/questions
 
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
+
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+
 
 https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/#:~:text=JavaScript%20documentation%20in%20WordPress%20takes%20the%20form%20of,in%20WordPress%20JavaScript%20files%3A%20Functions%20and%20class%20methods
