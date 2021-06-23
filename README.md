@@ -69,3 +69,5 @@ https://stackoverflow.com/questions
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+
+https://make.wordpress.org/core/handbook/best-practices/inline-documentation-standards/javascript/#:~:text=JavaScript%20documentation%20in%20WordPress%20takes%20the%20form%20of,in%20WordPress%20JavaScript%20files%3A%20Functions%20and%20class%20methods

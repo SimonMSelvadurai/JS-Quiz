@@ -1,57 +1,3 @@
-/* .wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-  flex-flow: row;
-} */
-/*
-  .wrapper > * {
-    padding: 10px;
-    flex: 1 100%;
-  }
-  
-  .header {
-    background: tomato;
-  }
-  
-  .footer {
-    background: lightgreen;
-  }
-  * {
-    box-sizing: border-box; 
-   }
-   body {
-     margin: 0;
-   }
-   #main {
-     display: flex;
-     min-height: calc(100vh - 40vh);
-   }
-
-  .main {
-    text-align: left;
-    background: deepskyblue;
-    height: auto;
-    padding: 10px;
-  }
-  
-  .aside-1 {
-    background: gold;
-    flex-flow: row;
-    text-align: left;
-  }
-  
-  .aside-2 {
-    background: hotpink;
-    text-align: right;
-    justify-content: space-around;
-   
-  }
-  .aside-2 >div{
-    flex-flow: row;
-  }
-*/
 body {
   font-family: Arial;
   font-size: 120%;
@@ -75,29 +21,11 @@ body {
   margin: 0;
 }
 
-/* #main > article {
-     flex: 1;
-   }
-   #main > nav, 
-   #main > aside {
-      flex: 0 0 30vw; 
-     background: beige;
-     text-align: right;
-      display:flex; 
 
-   } */
 h1,h2 {
   text-align: center;
 }
-/* #message{
-     align-items: center;
-   } */
-/* .button {
-    background-color:purple;
 
-     border-color:red; 
-    color:white;
-    } */
 
 .text-center {
   text-align: center;
@@ -121,11 +49,11 @@ h1,h2 {
   justify-content: center;
 }
 #question {
-  color: rgb(11, 182, 11);
+  color:teal;
   font-size: 30px;
 }
 #main {
-   /* padding: 10px;  */
+
   text-align: center;
   display: flex;
   flex: 0 0 1;
@@ -135,12 +63,7 @@ h1,h2 {
   min-height: calc(100vh - 25vh);
   flex: 1;
 }
-/*    
-   #main {
-    display: flex;
-    min-height: calc(100vh - 25vh);
-    flex: 1;
-  } */
+
 
 article {
   background: rgb(216, 216, 83);
@@ -148,10 +71,7 @@ article {
 summary {
   text-align: center;
 }
-/* #main > nav {
-     order: -1;
-     justify-content:left; 
-   } */
+
 header,
 footer,
 article,
@@ -172,7 +92,7 @@ header {
   display: none;
 }
 aside {
-  /* flex: 0 0 30vw;  */
+
   flex: 0 0 8vw;
   text-align: right;
   display: flex;
@@ -185,7 +105,7 @@ aside {
 #btn1,
 #btn2,
 #btn3 {
-  /* background-color: #128ab6; */
+ 
   width: 250px;
   font-size: 20px;
   color: #fff;
@@ -216,7 +136,7 @@ aside {
 footer {
   color: rgb(41, 6, 243);
   font-size: 25px;
-  /* background: rgb(216, 216, 83); */
+
 }
 #viewHighscore-menu {
   padding: 20vh;
@@ -256,7 +176,3 @@ li {
   padding: 5px;
   list-style: decimal inside none;
 }
-/* 
-li:nth-child(odd) {
-  background-color: #f3edfc;
-} */
