@@ -14,7 +14,7 @@ function performLocalStorage() {
 
   if (userInformation != null && userInformation.length > 0) {
     userInformation.sort((a, b) => {
-      return parseInt(b.finalScore) - parseInt(a.finalScore);
+      return parseInt(b.scores) - parseInt(a.scores);
     });
 
     for (i = 0; i <= userInformation.length - 1; i++) {
