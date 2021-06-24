@@ -63,6 +63,9 @@ Initials is Mandatory field.
 
 # Usage
 
+This web application is very much useful for the leaners to check their understanding and knowledge.
+As a developer we can add more functionalities and test the codding skills.
+
 # Credits
 
 The following websites was used as reference to build this website.
